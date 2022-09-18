@@ -1,0 +1,34 @@
+//
+// TYPOGRAPHY variables
+//
+// font-family
+$font-family-body: 'Work Sans', sans-serif;
+$font-family-header: 'Krona One', sans-serif;
+
+// font-weight
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+// font-size
+$font-size-body: 18px;
+$font-size-title-medium: 20px;
+$font-size-title-large: 30px;
+
+//
+// z-index variables
+//
+$dolphin-zindex: (
+  modal: 1000,
+  overlay: 900,
+  high: 800,
+  dropdown: 700,
+  tooltip: 500,
+  normal: 100,
+  low: 50,
+  card: 10,
+  belowCard: 1
+);
+
+@function dolphin-z($label) {
+  @return map-get($dolphin-zindex, $label);
+}

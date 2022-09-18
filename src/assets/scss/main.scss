@@ -1,0 +1,49 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+// Bootstrap styles
+@import '~bootstrap';
+@import '~bootstrap-vue';
+// Dolphin related styles
+@import 'base/_base';
+@import 'base/_variables';
+@import 'base/_colors';
+@import 'base/_fonts';
+
+// TODO(a.matrosovas): Move these to one of the configuration styles under /base. Leave this file for importing other
+//files only
+
+/*button-variant($background, $border, $hover-background: darken($background, 7.5%), $hover-border: darken($border, 10%), $active-background: darken($background, 10%), $active-border: darken($border, 12.5%))*/
+.btn-secondary-yellow {
+    @include button-variant($yellow,  $border: darken($white, 0%), $active-border: darken($white, 100%), $active-background: darken($yellow, 15%), $hover-background: darken($yellow, 10%),  $hover-border: darken($black, 10%));
+    width:auto;
+    border: 1px solid black;
+    font-family: $welcomeDescriptionFont;
+    padding: 10px;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.btn-secondary-pink {
+    @include button-variant($pink, $border: darken($white, 0%), $active-border: darken($white, 100%) ,$active-background: darken($pink, 15%),  $hover-background: darken($pink, 10%),  $hover-border: darken($black, 10%));
+    width:auto;
+    padding: 10px;
+    border: 1px solid black;
+    font-family: $welcomeDescriptionFont;
+    letter-spacing: 1px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.btn-secondary-green {
+    @include button-variant($light-green,  $border: darken($white, 0%), $active-border: darken($white, 100%), $active-background: darken($light-green, 15%), $hover-background: darken($light-green, 10%),  $hover-border: darken($black, 10%));
+    width:auto;
+    border: 1px solid black;
+    font-family: $welcomeDescriptionFont;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}

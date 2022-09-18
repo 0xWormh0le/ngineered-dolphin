@@ -1,0 +1,98 @@
+{
+	"name": "dolphin-web",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint",
+		"start": "vue-cli-service serve"
+	},
+	"dependencies": {
+		"@types/js-cookie": "^2.2.4",
+		"@types/jsonwebtoken": "^8.5.0",
+		"@types/smoothscroll-polyfill": "^0.3.1",
+		"axios": "^0.19.0",
+		"bootstrap": "^4.4.1",
+		"bootstrap-vue": "^2.1.0",
+		"core-js": "^2.6.5",
+		"fuse.js": "^5.2.3",
+		"install": "^0.13.0",
+		"js-cookie": "^2.2.1",
+		"jsonwebtoken": "^8.5.1",
+		"lodash": "^4.17.20",
+		"moment": "^2.27.0",
+		"npm": "^6.11.3",
+		"phoenix": "^1.5.3",
+		"portfinder": "^1.0.24",
+		"reflect-metadata": "^0.1.13",
+		"reset-css": "^4.0.1",
+		"run": "^1.4.0",
+		"serve": "^11.1.0",
+		"smoothscroll-polyfill": "^0.4.4",
+		"v-autocomplete": "^1.8.2",
+		"v-clipboard": "^2.2.2",
+		"vue": "^2.6.11",
+		"vue-browser-detect-plugin": "^0.1.8",
+		"vue-class-component": "^7.0.2",
+		"vue-click-outside": "^1.1.0",
+		"vue-infinite-loading": "^2.4.5",
+		"vue-lodash": "^2.1.2",
+		"vue-meta": "^2.3.2",
+		"vue-moment": "^4.1.0",
+		"vue-property-decorator": "^8.3.0",
+		"vue-router": "^3.0.3",
+		"vue-spinner": "^1.0.4",
+		"vue-switches": "^2.0.1",
+		"vue-tel-input": "^4.4.0",
+		"vue-typed-mixins": "^0.2.0",
+		"vue2-countdown": "^1.0.8",
+		"vue2-interact": "^0.0.3",
+		"vue2-touch-events": "^2.2.1",
+		"vuex": "^3.0.1",
+		"vuex-typescript": "^3.0.2"
+	},
+	"devDependencies": {
+		"@types/moment": "^2.13.0",
+		"@types/webpack": "^4.41.3",
+		"@vue/cli-plugin-babel": "^3.10.0",
+		"@vue/cli-plugin-eslint": "^3.10.0",
+		"@vue/cli-plugin-typescript": "^4.1.2",
+		"@vue/cli-service": "^3.10.0",
+		"@vue/eslint-config-prettier": "^5.0.0",
+		"@vue/eslint-config-typescript": "^4.0.0",
+		"babel-eslint": "^10.0.1",
+		"eslint": "^5.16.0",
+		"eslint-plugin-prettier": "^3.1.0",
+		"eslint-plugin-vue": "^5.0.0",
+		"node-sass": "^4.13.0",
+		"prettier": "^1.18.2",
+		"sass-loader": "^8.0.1",
+		"storyblok-vue": "^1.0.5",
+		"string-replace-loader": "^2.2.0",
+		"typescript": "3.7.5",
+		"vue-cli-plugin-i18n": "^0.6.0",
+		"vue-mq": "^1.0.1",
+		"vue-template-compiler": "^2.6.10",
+		"vuex-module-decorators": "^0.11.0",
+		"webpack": "^4.39.3"
+	},
+	"eslintConfig": {
+		"root": true,
+		"env": {
+			"node": true
+		},
+		"extends": [
+			"plugin:vue/essential",
+			"eslint:recommended",
+			"@vue/typescript"
+		],
+		"rules": {},
+		"parserOptions": {
+			"parser": "@typescript-eslint/parser"
+		}
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions"
+	]
+}

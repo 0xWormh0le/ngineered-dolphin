@@ -1,0 +1,13 @@
+{
+  "root": "dist",
+  "https_only": true,
+  "clean_urls": true,
+  "routes": {
+    "/**": "index.html"
+  },
+  "proxies": {
+    "/api/v1/": {
+      "origin": "${DOLPHIN_API_BASE_URL}"
+    }
+  }
+}
